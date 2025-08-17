@@ -7,32 +7,32 @@ windows:
     layout: tiled
     panes:
       - shell_command:
-        - sleep 60 
+        - sleep 160 
         - echo "Initializing ZED Driver."
         - echo "Sourcing ROS 2 and workspace setup."
         - source /root/tartan_rgbt_ws/install/setup.bash
         - ros2 launch zed_wrapper zed_camera.launch.py camera_model:=zedx
       - shell_command:
-        - sleep 75
+        - sleep 175
         - echo "Initializing Thermal Camera Drivers."
         - echo "Sourcing ROS 2 and workspace setup."
         - source /root/tartan_rgbt_ws/install/setup.bash
         - ros2 launch flir_ros_sync with_prerocess_both_cam.launch.py
-  - window_name: Health Drivers
-    suppress_history: false
-    layout: tiled
-    panes:
-      - shell_command:
-        - echo "Initializing HEalth Driver."
-        - echo "Sourcing ROS 2 and workspace setup."
-        - source /root/tartan_rgbt_ws/install/setup.bash
-        - ros2 launch health_test parv_payload.launch.py
+  # - window_name: Health Drivers
+  #   suppress_history: false
+  #   layout: tiled
+  #   panes:
+  #     - shell_command:
+  #       - echo "Initializing HEalth Driver."
+  #       - echo "Sourcing ROS 2 and workspace setup."
+  #       - source /root/tartan_rgbt_ws/install/setup.bash
+  #       - ros2 launch health_test parv_payload.launch.py
   - window_name: Bag Recorder
     suppress_history: false
     layout: tiled
     panes:
       - shell_command:
-        - sleep 80
+        - sleep 185
         - echo "Starting Bag Recorder."
         - echo "Sourcing ROS 2 and workspace setup."
         - source /root/tartan_rgbt_ws/install/setup.bash

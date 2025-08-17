@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-CONFIG="${TMUX_CONFIG:-/root/tmux_config.yaml}"
+CONFIG="${TMUX_CONFIG:-/root/tartan_rgbt_ws/docker/tmux_config.yaml}"
 
 
 # helper: run a list of commands in the targeted tmux pane

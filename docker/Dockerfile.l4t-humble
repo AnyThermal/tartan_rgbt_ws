@@ -108,7 +108,7 @@ RUN python3 -m pip install rosbags jetson-stats Jetson.GPIO --index-url https://
 RUN apt-get update && apt-get install -y ros-humble-rviz-2d-overlay-plugins xsel tmux curl && \
     curl -sL https://github.com/mikefarah/yq/releases/latest/download/yq_linux_arm64 \
       -o /usr/local/bin/yq && chmod +x /usr/local/bin/yq
-WORKDIR /root/ros2_ws
+WORKDIR /root/tartan_rgbt_ws
 RUN sudo apt install ros-$ROS_DISTRO-foxglove-bridge libgpiod2 -y 
 RUN echo "source /opt/ros/$ROS_DISTRO/install/setup.bash" >> /root/.bashrc
 RUN echo "source /root/ros2_ws/install/setup.bash" >> /root/.bashrc
