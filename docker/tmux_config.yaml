@@ -18,15 +18,15 @@ windows:
         - echo "Sourcing ROS 2 and workspace setup."
         - source /root/tartan_rgbt_ws/install/setup.bash
         - ros2 launch flir_ros_sync with_prerocess_both_cam.launch.py
-  # - window_name: Health Drivers
-  #   suppress_history: false
-  #   layout: tiled
-  #   panes:
-  #     - shell_command:
-  #       - echo "Initializing HEalth Driver."
-  #       - echo "Sourcing ROS 2 and workspace setup."
-  #       - source /root/tartan_rgbt_ws/install/setup.bash
-  #       - ros2 launch health_test parv_payload.launch.py
+  - window_name: Health Drivers
+    suppress_history: false
+    layout: tiled
+    panes:
+      - shell_command:
+        - echo "Initializing HEalth Driver."
+        - echo "Sourcing ROS 2 and workspace setup."
+        - source /root/tartan_rgbt_ws/install/setup.bash
+        - ros2 launch health_test parv_payload.launch.py
   - window_name: Bag Recorder
     suppress_history: false
     layout: tiled
