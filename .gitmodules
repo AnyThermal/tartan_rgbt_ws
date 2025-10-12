@@ -10,3 +10,15 @@
 [submodule "src/zed-ros2-wrapper"]
 	path = src/zed-ros2-wrapper
 	url = git@github.com:castacks/zed-ros2-wrapper.git
+[submodule "src/extract/ros_torch_converter"]
+	path = src/extract/ros_torch_converter
+	url = git@github.com:castacks/ros_torch_converter.git
+[submodule "src/extract/tartandriver_interfaces"]
+	path = src/extract/tartandriver_interfaces
+	url = git@github.com:castacks/tartandriver_interfaces.git
+[submodule "src/extract/tartandriver_utils"]
+	path = src/extract/tartandriver_utils
+	url = git@github.com:castacks/tartandriver_utils.git
+[submodule "src/extract/static_tf_publisher"]
+	path = src/extract/static_tf_publisher
+	url = git@github.com:castacks/static_tf_publisher.git
