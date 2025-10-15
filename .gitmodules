@@ -1,12 +1,12 @@
 [submodule "src/bag_recorder_pid"]
 	path = src/bag_recorder_pid
-	url = git@github.com:strapsai/bag_recorder_pid.git
+	url = git@github.com:castacks/bag_recorder_pid.git
 [submodule "src/flir_thermal_driver"]
 	path = src/flir_thermal_driver
 	url = git@github.com:castacks/flir_thermal_driver.git
 [submodule "src/health_utils"]
 	path = src/health_utils
-	url = git@github.com:strapsai/health_utils.git
+	url = git@github.com:castacks/health_utils.git
 [submodule "src/zed-ros2-wrapper"]
 	path = src/zed-ros2-wrapper
 	url = git@github.com:castacks/zed-ros2-wrapper.git
