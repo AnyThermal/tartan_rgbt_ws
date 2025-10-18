@@ -3,7 +3,7 @@
 	url = git@github.com:AnyThermal/bag_recorder_pid.git
 [submodule "src/flir_thermal_driver"]
 	path = src/flir_thermal_driver
-	url = git@github.com:AnyThermal/flir_thermal_drivers.git
+	url = git@github.com:AnyThermal/flir_thermal_driver.git
 [submodule "src/health_utils"]
 	path = src/health_utils
 	url = git@github.com:AnyThermal/health_utils.git
