@@ -1,24 +1,21 @@
 [submodule "src/bag_recorder_pid"]
 	path = src/bag_recorder_pid
-	url = git@github.com:castacks/bag_recorder_pid.git
+	url = git@github.com:AnyThermal/bag_recorder_pid.git
 [submodule "src/flir_thermal_driver"]
 	path = src/flir_thermal_driver
-	url = git@github.com:castacks/flir_thermal_drivers_ARM_64.git
+	url = git@github.com:AnyThermal/flir_thermal_drivers_ARM_64.git
 [submodule "src/health_utils"]
 	path = src/health_utils
-	url = git@github.com:castacks/health_utils.git
+	url = git@github.com:AnyThermal/health_utils.git
 [submodule "src/zed-ros2-wrapper"]
 	path = src/zed-ros2-wrapper
 	url = git@github.com:castacks/zed-ros2-wrapper.git
 [submodule "src/extract/ros_torch_converter"]
 	path = src/extract/ros_torch_converter
-	url = git@github.com:castacks/ros_torch_converter.git
-[submodule "src/extract/tartandriver_interfaces"]
-	path = src/extract/tartandriver_interfaces
-	url = git@github.com:castacks/tartandriver_interfaces.git
+	url = git@github.com:AnyThermal/ros_torch_converter.git
 [submodule "src/extract/tartandriver_utils"]
 	path = src/extract/tartandriver_utils
-	url = git@github.com:castacks/tartandriver_utils.git
+	url = git@github.com:AnyThermal/tartandriver_utils.git
 [submodule "src/extract/static_tf_publisher"]
 	path = src/extract/static_tf_publisher
-	url = git@github.com:castacks/static_tf_publisher.git
+	url = git@github.com:AnyThermal/static_tf_publisher.git
