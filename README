@@ -14,6 +14,10 @@ To know more about our work please visit the project website: [https://anytherma
 
 The TartanRGBT platform is a handheld data collection rig housed in a custom 3D-printed enclosure with ergonomic handles for ease of use. The payload captures synchronized stereo RGB and stereo thermal.
 
+## Hardware Assembly 
+
+Please refer to the [Hardware Assembly Guide](https://docs.google.com/document/d/1X5Av5y16SZzcaHOHzIiit1tz_KwJjkek2Er0iPeW7_g/edit?tab=t.0#heading=h.swwwpt7pk089) for detailed instructions on assembling the TartanRGBT payload, including BOM, component specifications, and 3D printing files for the enclosure.
+
 ### Core Components
 
 1. **Compute Module**: NVIDIA Jetson AGX Orin Developer Kit (64GB)
